@@ -1,0 +1,16 @@
+{
+  "name": "pdfkit-test",
+  "version": "1.0.0",
+  "description": "Testing issues with chinese characters",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node dist/index.js"
+  },
+  "author": "Dr-NULL",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.7.5",
+    "@types/pdfkit": "^0.10.2",
+    "pdfkit": "^0.10.0"
+  }
+}
