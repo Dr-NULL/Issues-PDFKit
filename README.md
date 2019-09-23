@@ -13,6 +13,8 @@ That issues only ocurs with fonts with chinese characters, like:
 - [NotoSans TC Font](https://fonts.google.com/specimen/Noto+Sans+TC).
 - [NotoSerif TS Font](https://fonts.google.com/specimen/Noto+Serif+TC).
 
+And the Output File is generated in ```source/test.pdf```
+
 ## How to run the Test:
 
 ### Prerequisites:

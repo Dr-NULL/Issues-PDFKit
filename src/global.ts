@@ -2,7 +2,7 @@ module Global {
     export module Path {
         export const root = __dirname.replace(/(.(?!(\\|\/)))+.$/gi, "\\")
         export const source = root + "source\\"
-        export const pdfFile = source + "test.pdf"
+        export const pdfFile = source + "test.pdf"      //OUTPUT FILE
         
         export module Fonts {
             const fonts = source + "fonts\\"
