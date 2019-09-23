@@ -24,15 +24,18 @@ dcto.text(
 //Thats the Issue ↓↓↓
 dcto.fontSize(7)
 dcto.text("产品名:", 
-    mm(2), mm(7)
+    mm(2), mm(7),
+    { stroke: false }
 )
 dcto.text(
     "Product Name:",
-    mm(2), mm(10)
+    mm(2), mm(10),
+    { stroke: false }
 )
 dcto.text(
     "Nombre Producto:",
-    mm(2), mm(13)
+    mm(2), mm(13),
+    { stroke: false }
 )
 //Thats the Issue ↑↑↑
 
