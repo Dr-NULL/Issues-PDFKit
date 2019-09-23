@@ -12,3 +12,19 @@ That issues only ocurs with fonts with chinese characters, like:
 - [NotoSans SC Font](https://fonts.google.com/specimen/Noto+Sans+SC).
 - [NotoSans TC Font](https://fonts.google.com/specimen/Noto+Sans+TC).
 - [NotoSerif TS Font](https://fonts.google.com/specimen/Noto+Serif+TC).
+
+## How to run the Test:
+
+### Prerequisites:
+- Windows 10 x64 bits
+- [Node.js v10.16.3](https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi)
+- Typescript: ```npm install -g typescript```
+
+### Prepare the project:
+
+Execute these commands, line by line, pressing enter after every line ending:
+```
+npm update
+tsc
+npm test
+```
