@@ -3,7 +3,6 @@ import * as fs from "fs";
 
 import Global from "./global";
 import mm from "./mm";
-import { join } from "path";
 
 //New Document
 console.clear();
