@@ -6,11 +6,11 @@ module Global {
         
         export module Fonts {
             const fonts = source + "fonts\\"
-            export const notoSansSinplif = fonts + "NotoSansSimplif.otf"
-            export const notoSansTradit = fonts + "NotoSansTradit.otf"
-            export const notoSerifTradit = fonts + "NotoSerifTradit.otf"
             export const code128 = fonts + "Code128.ttf"
-            export const roboto = fonts + "Roboto.ttf"
+            export const notoSansSC = fonts + "NotoSansSC.otf"
+            export const notoSerifSC = fonts + "NotoSerifSC.otf"
+            export const pingFang = fonts + "PingFang.ttf"
+            export const 方正黑体简体 = fonts + "方正黑体简体.ttf"
         }
     }
 }
