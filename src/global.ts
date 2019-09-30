@@ -7,10 +7,12 @@ module Global {
         export module Fonts {
             const fonts = source + "fonts\\"
             export const code128 = fonts + "Code128.ttf"
-            export const notoSansSC = fonts + "NotoSansSC.otf"
-            export const notoSerifSC = fonts + "NotoSerifSC.otf"
-            export const pingFang = fonts + "PingFang.ttf"
-            export const 方正黑体简体 = fonts + "方正黑体简体.ttf"
+            export const notoSansSC = fonts + "NotoSansSC.otf"              //From https://fonts.google.com/
+            export const notoSerifSC = fonts + "NotoSerifSC.otf"            //From https://fonts.google.com/
+            export const notoSansCJKtc = fonts + "NotoSansCJKtc.otf"        //From https://www.google.com/get/noto/#sans-hant
+            export const sourceHanSerifSC = fonts + "SourceHanSerifSC.otf"  //From https://github.com/adobe-fonts/source-han-serif/tree/release/OTF/SimplifiedChinese
+            export const pingFang = fonts + "PingFang.ttf"                  //Powered by PDFKit dev team
+            export const fZHei = fonts + "FZHei.ttf"                        //From http://www.foundertype.com/
         }
     }
 }

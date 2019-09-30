@@ -11,7 +11,7 @@ const dcto = new PDFDocument({ size: [mm(150), mm(100)], margin: mm(0) });
 dcto.pipe(fs.createWriteStream(Global.Path.pdfFile));
 
 //Title
-dcto.font(Global.Path.Fonts.方正黑体简体);
+dcto.font(Global.Path.Fonts.pingFang);    //<---- Testing Fonts
 dcto.fontSize(10);
 dcto.text(
   "冷冻去骨牛肉 / Frozen Boneless Beef / Carne Bovina sin Hueso Congelada",
